@@ -19,7 +19,7 @@ function Firefly(){
   
   
   this.angle_of_attack = Math.atan2(  this.y - center_y ,  this.x - center_x);
-  this.vel =  ( Math.random() * 500 ) + 5 ;
+  this.vel =  ( Math.random() * 300 ) + 5 ;
   
   this.color = colors[ ~~(colors.length * Math.random()) ]
   
